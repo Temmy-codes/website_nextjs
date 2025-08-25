@@ -24,7 +24,7 @@
   justify-content: space-between; /* logo left, links right */
   align-items: center;
   padding: 1rem 2rem;
-  background: lightskyblue;
+  background:darkgreen ;
   color: white;
   position: sticky;
   top: 0;
@@ -55,7 +55,7 @@
 
 /* Body and Main */
 body {
-  background-color: #2b2b2b; 
+  background-color: darkgreen; 
   color:white;
   font-family: Arial, sans-serif;
 }
