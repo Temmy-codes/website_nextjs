@@ -94,7 +94,7 @@ export default function Home() {
       </div>
     </a>
 
-    <a href="https://youtube.com/@maryesso" target="_blank" rel="noopener noreferrer">
+    <a href="https://youtube.com/@maryesso_" target="_blank" rel="noopener noreferrer">
       <div className="social-item">
         <img 
           src="https://media.journoportfolio.com/users/427887/images/d8457a21-9e2f-43e9-8ea6-b33a205df853_max-600.jpeg" 
@@ -116,45 +116,47 @@ export default function Home() {
   </div>
 </section>
 
+         {/* Projects */}
+  <section id="projects" className="section">
+  <h2 className="heading">Projects</h2>
+  <div className="projects-container">
+    <ProjectCard
+      title="Portfolio Website"
+      description="A portfolio website built with Next JS."
+    />
 
-        {/* Projects */}
-        <section id="projects" className="section">
-          <h2 className="heading">Projects</h2>
-          <ProjectCard
-            title="Portfolio Website"
-            description="A portfolio website built with Next JS."
-          />
+    <ProjectCard
+      title="Portfolio Website"
+      description="A portfolio website built with HTML, CSS and Javascript."
+      link="https://github.com/Temmy-codes/Portfolio-Website"
+    />
 
-          <ProjectCard
-           title="Portfolio Website"
-           description= "A portfolio website built with HTML, CSS and Javascript."
-           link= "https://github.com/Temmy-codes/Portfolio-Website"
-           />
+    <ProjectCard
+      title="Yoga Class Registration"
+      description="A simple form site for student registration."
+      link="https://temmyyogaclass.netlify.app/"
+    />
 
-          <ProjectCard
-            title="Yoga Class Registration"
-            description="A simple form site for student registration."
-            link="https://temmyyogaclass.netlify.app/"
+    <ProjectCard
+      title="User-profile Directory"
+      description="A React based application that fetches and displays user profiles dynamically.
+      It includes live search, city-based filtering, and a clean card-based UI."
+      link="https://user-profile-directory.netlify.app/"
+    />
+  </div>
 
-          />
-          <ProjectCard
-            title="User-profile Directory"
-            description="A React based application that fetches and displays user profiles dynamically.
-            It includes live search, city-based filtering, and a clean card-based UI."
-            link="https://user-profile-directory.netlify.app/"
-          />
+  <p style={{ marginTop: "1rem" }}>
+    View More on{" "}
+    <a
+      href="https://github.com/Temmy-codes"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      GitHub
+    </a>
+  </p>
+</section>
 
-          <p style={{ marginTop: "1rem" }}>
-            View More on{" "}
-            <a
-              href="https://github.com/Temmy-codes"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-          </p>
-        </section>
 
         {/* Contact */}
         <section id="contact" className="section">
