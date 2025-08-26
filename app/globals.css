@@ -24,8 +24,8 @@
   justify-content: space-between; /* logo left, links right */
   align-items: center;
   padding: 1rem 2rem;
-  background:darkgreen ;
-  color: white;
+  background: #D4AF37;
+  color: black;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -44,7 +44,7 @@
 
 .navLinks a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 1rem;
   transition: color 0.3s;
 }
@@ -55,8 +55,8 @@
 
 /* Body and Main */
 body {
-  background-color: darkgreen; 
-  color:white;
+  background-color: #D4AF37; 
+  color:black;
   font-family: Arial, sans-serif;
 }
 
@@ -76,7 +76,7 @@ main {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #fff;
+  border: 3px solid black;
   margin-top: 1rem;
 }
 
@@ -99,7 +99,7 @@ main {
   text-align: justify;
   line-height: 1.8;
   font-size: 1.1rem;
-  color: #e0e0e0;
+  color: black;
 }
 
 .text p {
