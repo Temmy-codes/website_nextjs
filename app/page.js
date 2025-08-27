@@ -22,7 +22,7 @@ export default function Home() {
         </section>
 
         {/* About */}
-        <section id="about" className="section">
+        <section id="about" style={{ maxWidth: "100%", padding: "1rem", overflowX: "hidden" }}>
           <h2 className="heading">About Me</h2>
           <div className="text">
             <p>

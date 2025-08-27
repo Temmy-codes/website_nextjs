@@ -24,8 +24,8 @@
   justify-content: space-between; /* logo left, links right */
   align-items: center;
   padding: 1rem 2rem;
-  background: #D4AF37;
-  color: black;
+  background:#7B3F00;
+  color: white;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -44,7 +44,7 @@
 
 .navLinks a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 1rem;
   transition: color 0.3s;
 }
@@ -55,8 +55,8 @@
 
 /* Body and Main */
 body {
-  background-color: #D4AF37; 
-  color:black;
+  background-color: #7B3F00; 
+  color:white;
   font-family: Arial, sans-serif;
 }
 
@@ -72,11 +72,11 @@ main {
 
 /* Hero / Profile Image */
 .profileImage {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
   object-fit: cover;
-  border: 3px solid black;
+  border: 3px solid;
   margin-top: 1rem;
 }
 
@@ -99,7 +99,7 @@ main {
   text-align: justify;
   line-height: 1.8;
   font-size: 1.1rem;
-  color: black;
+  color: white;
 }
 
 .text p {
@@ -127,8 +127,8 @@ main {
 .social-links {
   display: flex;
   justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
+  gap: 20px;
+  flex-wrap: nowrap;
 }
 
 .social-item {
@@ -152,6 +152,16 @@ main {
   font-size: 1.1rem;
   font-weight: 500;
 }
+
+a {
+  color: black;
+  text-decoration: none; /* removes underline */
+}
+
+a:hover {
+  color: #555; /* optional: grey on hover */
+}
+
 
 
 /* Section spacing */

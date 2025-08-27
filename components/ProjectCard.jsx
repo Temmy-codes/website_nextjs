@@ -5,7 +5,9 @@ const ProjectCard = ({ title, description, link }) => {
   return (
     <div>
       <h3>{title}</h3>
+
       <p>{description}</p>
+      
       {link && (
         <a 
           href={link} 

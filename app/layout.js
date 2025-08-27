@@ -14,9 +14,13 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "MARY ESSO",
   description: "Mary Esso Portfolio",
-  viewport: "width=device-width, initial-scale=1.0",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+};
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
