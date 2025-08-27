@@ -9,6 +9,7 @@ export default function Home() {
 
       <main>
         {/* Hero / Intro */}
+        <section id="hero" style={{ maxWidth: "100%", padding: "1rem", overflowX: "hidden" }}></section>
         <section className="section">
           <h1 className="title">MARY ESSO</h1>
           <img
@@ -60,10 +61,12 @@ export default function Home() {
             <p>So yeah, that’s a brief summary about me 😊</p>
           </div>
         </section>
-
-         <section className="connect">
-  <h2>Connect with Me</h2>
-  <div className="social-links">
+ 
+     {/*Connect*/}   
+    <section id="connect" style={{ maxWidth: "100%", padding: "1rem", overflowX: "hidden" }}></section>
+    <section className="connect">
+   <h2>Connect with Me</h2>
+   <div className="social-links">
     <a href="https://tiktok.com/@temmy.___" target="_blank" rel="noopener noreferrer">
       <div className="social-item">
         <img 
@@ -115,8 +118,10 @@ export default function Home() {
     </a>
   </div>
 </section>
-
-         {/* Projects */}
+         
+         
+    {/* Projects */}
+  <section id="Projects" style={{ maxWidth: "100%", padding: "1rem", overflowX: "hidden" }}></section>
   <section id="projects" className="section">
   <h2 className="heading">Projects</h2>
   <div className="projects-container">
@@ -157,8 +162,9 @@ export default function Home() {
   </p>
 </section>
 
-
+         
         {/* Contact */}
+        <section id="Contact" style={{ maxWidth: "100%", padding: "1rem", overflowX: "hidden" }}></section>
         <section id="contact" className="section">
           <h2 className="heading">Contact</h2>
           <p className="text">
