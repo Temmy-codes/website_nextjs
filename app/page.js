@@ -9,7 +9,6 @@ export default function Home() {
 
       <main>
         {/* Hero / Intro */}
-        <section id="hero" style={{ maxWidth: "100%", padding: "1rem", overflowX: "hidden" }}></section>
         <section className="section">
           <h1 className="title">MARY ESSO</h1>
           <img

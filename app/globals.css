@@ -102,6 +102,13 @@ main {
   color: white;
 }
 
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .text {
+    font-size: 0.85rem;  /* shrink so it fits */
+  }
+}
+
 .text p {
   margin-bottom: 1.2rem;
 }
