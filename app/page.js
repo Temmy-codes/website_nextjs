@@ -19,6 +19,7 @@ export default function Home() {
           <p className="text">
             Medical Biochemist | Frontend Developer | Yoga Instructor | Content Creator
           </p>
+          
         </section>
 
         {/* About */}
